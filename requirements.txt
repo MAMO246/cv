@@ -1,5 +1,0 @@
-google-api-python-client
-
-python-telegram-bot
-
-requests
