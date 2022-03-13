@@ -19,7 +19,7 @@ API_HASH = '9f4461079f30757ca0a4c23e14bd523f'
   go = True
   while go:
     token = input("input you're bot TOKEN:")
-    get = Bot(token,"getme",{})
+    get = Bot(token,"getme",{5121277513:AAEun41OrJasuNCJmO8lkS1t5TgabJ1uQPU})
     if get["ok"]:
       out = out+"\n"+"TOKEN = '{}'\nBOT_ID = TOKEN.split(':')[0]".format(token)
       go = False
@@ -35,4 +35,4 @@ API_HASH = '9f4461079f30757ca0a4c23e14bd523f'
   f.write(out)
   f.close()
 
-  os.system('pm2 start bot.py -f --name {} --interpreter python3.7 --interpreter-args -u'.format(ID))
+  os.system('pm2 start bot.py -f --name {5149639209} --interpreter python3.7 --interpreter-args -u'.format(ID))
