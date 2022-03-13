@@ -1,3 +1,0 @@
-BOT_TOKEN = "5010221386:AAEA9vX5TTS2ZxiVoM1G93FxxkE5M35I7Ug"
-
-APP_URL = "https://xzzfrv.herokuapp.com" + BOT_TOKEN
